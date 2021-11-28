@@ -1,0 +1,89 @@
+.section-program {
+  background-color: #dee0e0;
+  background-image: url(../img/snow.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.program-head {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #c23331;
+}
+.program_item-list {
+  margin-bottom: 50px;
+}
+.program_item {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  line-height: 1.89;
+  letter-spacing: 0.03em;
+}
+.program_icon {
+  margin-right: 10px;
+  fill: #c23331;
+}
+.program_text-one {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: black;
+}
+.program_text-border {
+  text-align: center;
+  padding: 20px 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 80px;
+  margin-bottom: 30px;
+}
+.program_text {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.89;
+  letter-spacing: 0.03em;
+  color: #c23331;
+}
+
+.program_text-gift {
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: black;
+}
+.program_gift {
+  display: flex;
+  justify-content: center;
+}
+.program_icon-gift {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  fill: #c23331;
+  transform: scale(1);
+  transition: transform 500ms cubic-bezier (0.4, 0, 0.2, 0);
+
+  &:hover {
+    transform: scale(1.5);
+    fill: black;
+  }
+}
+.program_icon-gift:not(:last-child) {
+  margin-right: 30px;
+}
