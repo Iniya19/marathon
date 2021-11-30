@@ -65,8 +65,32 @@
   justify-content: center;
   padding: 20px 0;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #dee0e0;
+
+  &:hover,
+  &:focus {
+    animation-name: changeBgColor;
+    animation-duration: 3000ms;
+
+    @keyframes changeBgColor {
+      0% {
+        color: #dee0e0;
+      }
+      30% {
+        color: #ffe5b4;
+      }
+      50% {
+        color: gold;
+      }
+      70% {
+        color: goldenrod;
+      }
+      100% {
+        color: black;
+      }
+    }
+  }
 }
